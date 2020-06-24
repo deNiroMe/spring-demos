@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2238286-80a4-45d3-add8-4c6918a88aaf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book-service/src/test/java/ma/example/books/bookservice/ut/controllers/BookControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book-service/pom.xml" afterPath="$PROJECT_DIR$/book-service/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/book-service/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book-service/src/main/java/ma/example/books/controllers/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="314">
+              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#625#626#0" expanded="true" />
@@ -63,6 +61,16 @@
                 <element signature="e#815#816#0" expanded="true" />
                 <element signature="e#851#852#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,13 +116,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/book-service/JenkinsFile" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.6.RELEASE/spring-test-5.2.6.RELEASE.jar!/org/springframework/test/web/servlet/result/MockMvcResultMatchers.class" />
         <option value="$PROJECT_DIR$/book-service/pom.xml" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/ma/example/books/services/BookService.java" />
         <option value="$PROJECT_DIR$/book-service/src/test/java/ma/example/books/bookservice/ut/controllers/BookControllerTest.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/ma/example/books/controllers/BookController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -437,7 +445,7 @@
       <workItem from="1592857409591" duration="1705000" />
       <workItem from="1592944446485" duration="3832000" />
       <workItem from="1592948553933" duration="898000" />
-      <workItem from="1593030373700" duration="3472000" />
+      <workItem from="1593030373700" duration="3944000" />
     </task>
     <task id="LOCAL-00001" summary="ignore .idea .setting folder">
       <created>1592858534888</created>
@@ -460,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593034009120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding controller unit test">
+      <created>1593034051795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593034051795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -496,7 +511,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11371000" />
+    <option name="totallyTimeSpent" value="11843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -542,7 +557,8 @@
     <MESSAGE value="ignore .idea .setting folder" />
     <MESSAGE value="adding jenkins file" />
     <MESSAGE value="adding books service" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding books service" />
+    <MESSAGE value="adding controller unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding controller unit test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-service/JenkinsFile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -759,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book-service/src/main/java/ma/example/books/controllers/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="314">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#583#584#0" expanded="true" />
             <element signature="e#625#626#0" expanded="true" />
@@ -769,6 +778,14 @@
             <element signature="e#815#816#0" expanded="true" />
             <element signature="e#851#852#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
