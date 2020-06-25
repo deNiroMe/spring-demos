@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/book-service/book-service.iml" filepath="$PROJECT_DIR$/book-service/book-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/sd-multi-module.iml" filepath="$PROJECT_DIR$/sd-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demos.iml" filepath="$PROJECT_DIR$/spring-demos.iml" />
     </modules>
   </component>
 </project>
