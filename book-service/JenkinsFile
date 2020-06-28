@@ -3,7 +3,6 @@ node {
     stage 'Clone the project'
     git 'https://github.com/deNiroMe/spring-demos.git'
 
-
     dir('book-service') {
 
         stage("Compilation and Analysis") {
@@ -14,6 +13,20 @@ node {
                     bat "./mvnw.cmd clean install -DskipTests"
                 }
             }
+        }
+
+        stage("Running unit tests") {
+            try {
+                if (isUnix()) {
+                    sh "./mvnw test -Punit"
+                } else {
+                    bat "./mvnw.cmd test"
+                }
+            } catch(err) {
+                step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*Test.xml'])
+                throw err
+            }
+            step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*Test.xml'])
         }
 
         stage("Staging") {
