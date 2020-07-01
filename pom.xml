@@ -10,6 +10,7 @@
 
     <modules>
         <module>book-service</module>
+        <module>spring-swagger</module>
     </modules>
 
 </project>
