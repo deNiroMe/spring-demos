@@ -1,0 +1,8 @@
+server:
+  port: 8889
+wafa:
+  api:
+    route: 'http://localhost:8889'
+    server: 'development'
+    url: '/books'
+    version: '2.0'
